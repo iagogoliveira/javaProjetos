@@ -158,6 +158,7 @@ public class TelaLogin extends javax.swing.JFrame {
         jPanel2.getAccessibleContext().setAccessibleName("");
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void loginTextoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginTextoActionPerformed

@@ -55,6 +55,7 @@ public class ListagemRequi extends javax.swing.JFrame {
         jTableRequi = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Lista de requisitos");
 
         jTableRequi.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -104,6 +105,7 @@ public class ListagemRequi extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTableRequiMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTableRequiMouseClicked

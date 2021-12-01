@@ -288,6 +288,7 @@ public class TelaModificarUsuario extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTableUsersKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTableUsersKeyReleased

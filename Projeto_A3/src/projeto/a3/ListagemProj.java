@@ -44,6 +44,7 @@ public class ListagemProj extends javax.swing.JFrame {
         jTableProjs = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Lista de projetos");
 
         jTableProjs.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -97,6 +98,7 @@ public class ListagemProj extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTableProjsMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTableProjsMouseClicked
